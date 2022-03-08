@@ -1,0 +1,15 @@
+@import 'reset' ;
+@import 'common';
+@import 'nav';
+@import 'Heroslider';
+@import 'show';
+@import 'Mainslide';
+@import 'Details';
+body{
+    background-color: $bg;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

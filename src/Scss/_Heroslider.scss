@@ -1,0 +1,45 @@
+.hero_slider{
+    min-height: 75vh;
+ 
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 2rem;
+
+ overflow: hidden;
+
+  .hero_slider_content{
+   border-radius: 10px;
+
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+     min-height: inherit;
+  position: absolute;
+  
+   .data_container{
+       padding-top: 2rem;
+       padding-left: 2rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       h3 ,h2,h5{
+           font-size: 2rem;
+           font-family: sans-serif;
+           
+       }
+       h2{
+           padding-top: 2rem;
+           font-size: 1.2rem;
+           line-height: 1.3rem;
+           max-width: 50%;
+       }
+       h5{
+  padding-top: 1rem;
+  font-size: 15px;
+       }
+   }
+  }
+}
